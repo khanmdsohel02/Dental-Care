@@ -1,0 +1,21 @@
+.short-boi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px 80px;
+    margin: 70px 70px 0px 70px;
+}
+.about-me p{
+    color:rgb(67, 101, 130);
+    text-align: justify;
+    padding-top: 15px;
+}
+.about-me .wc-title{
+    color:blueviolet;
+}
+.me-img img{
+border-radius: 50%;
+}
+.about-me{
+    width: 60%;
+}

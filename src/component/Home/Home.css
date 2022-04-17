@@ -2,10 +2,12 @@
     width: 90%;
     margin: 0 auto;
 }
-.bg-service{
+
+/*************** Service*********** */
+.color-bg{
   background-color: #f8f8f8;
 }
-.service{
+.service {
     display: flex;
 }
  .title{
@@ -15,4 +17,14 @@
     font-size: 50px;
     font-weight: 700;
 }
+.recent-post{
+    margin: 50px 0px;
+}
+.R-post{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
    
