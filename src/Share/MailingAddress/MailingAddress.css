@@ -1,0 +1,15 @@
+.mailing-address{
+  background-color: #f8f8f8;
+ display:flex;
+ align-items: center;
+ justify-content: space-around;
+ padding-top: 25px;
+ padding-bottom: 20px;   
+}
+ .mailing-address p{
+     color:rgb(67, 101, 130);
+     padding-top: 7px;
+ }
+ .mailing-address h5{
+     color: rgb(49, 124, 99);
+ }

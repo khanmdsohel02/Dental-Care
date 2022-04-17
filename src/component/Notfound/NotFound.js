@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Services = () => {
+const NotFound = () => {
     return (
         <div>
-            <h1>Services</h1>
+            <h1>NotFound</h1>
         </div>
     );
 };
 
-export default Services;
+export default NotFound;

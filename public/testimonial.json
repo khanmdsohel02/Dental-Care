@@ -1,42 +1,42 @@
 [
      {
     "id": 1,
-    "img":"../images/testimonial/test1.png",
+    "img":"../src/images/testimonial/test1.png",
     "user":"Hamim khandakar",
     "title": "HAPPY HEALTHY SMILES",
     "body": "I am so happy I chose Dentalia both of my kids enjoy their checkups and have healthy smiles. I can not thank you enough"
   },
       {
     "id": 2,
-    "img":"../images/testimonial/test2.png",
+    "img":"../src/images/testimonial/test2.png",
     "user":"MD.Hasan Ali",
     "title": "Dr. Abdullah IS THE BEST",
     "body": "Today was the first time we visited  the dentist. He was very kind, helpful and the office was just beautiful"
   },
       {
     "id": 3,
-    "img":"../images/testimonial/test3.png",
+    "img":"../src/images/testimonial/test3.png",
     "user":"Habib Mia",
     "title": "A WONDERFUL EXPERIENCE",
     "body": "My daughter is not afraid of the dentist anymore and her teeth are healthy and look absolutely beautiful"
   },
       {
     "id": 4,
-    "img":"../images/testimonial/test4.png",
+    "img":"../src/images/testimonial/test4.png",
     "user":"MD.Sohel",
     "title": "BEST DENTAL CLINIC",
     "body": "I am fully satisfied for him beautiful service"
   },
       {
     "id": 5,
-    "img":"../images/testimonial/test5.png",
+    "img":"../src/images/testimonial/test5.png",
     "user":"Kobir Mia",
     "title": "FIRST VISIT TO DENTIST",
     "body": "I have been suffering from toothache for some time but after going to this dentist Alhamdulillah my pain got better now."
   },
       {
     "id": 6,
-    "img":"../images/testimonial/test6.png",
+    "img":"../src/images/testimonial/test6.png",
     "user":"Masum",
     "title": "FIRST EXPERIENCE",
     "body": "I am fully satisfy for their treatment and their office look beautiful"

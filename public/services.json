@@ -1,0 +1,57 @@
+[
+     {
+    "id": 1,
+    "img":"../src/images/service/service1.png",
+    "title": "Scaling",
+    "body": "Scaling is a common dental procedure for patients with gum disease. This is a type of dental cleaning that reaches below the gum line to remove plaque buildup."
+  },
+    {
+    "id": 2,
+    "img":"../src/images/service/service2.png",
+    "title": "Root Canal Treatment",
+    "body": "A root canal is a treatment used to repair and save a tooth that is badly decayed or becomes infected."
+  },
+    {
+    "id": 3,
+       "img":"../src/images/service/service3.png",
+    "title": "Dental Bridges",
+    "body": "A bridge is a fixed dental restoration used to replace one or more missing teeth by joining an artificial tooth definitively to adjacent teeth or dental implants."
+  },
+    {
+    "id": 4,
+       "img":"../src/images/service/service4.png",
+    "title": "Root Planning",
+    "body": "Scaling and root planing, also known as conventional periodontal therapy, non-surgical periodontal therapy, or deep cleaning"
+  },
+    {
+    "id": 5,
+       "img":"../src/images/service/service5.png",
+    "title": "Complete Dentures",
+    "body": "A complete denture is a removable appliance used when all teeth within a jaw have been lost and need to be prosthetically replaced."
+  },
+    {
+    "id": 6,
+       "img":"../src/images/service/service6.png",
+    "title": "Midline Diastema",
+    "body": "Midline diastema is a space between the maxillary and/or mandibular central incisors. Midline diastema can be due to various causes such as genetic, environmental, and so on."
+  },
+    {
+    "id": 7,
+       "img":"../src/images/service/service7.png",
+    "title": "Pulpectomy",
+    "body": "A pulpotomy is the removal of a portion of the pulp, including the diseased aspect, with the intent of maintaining the vitality of the remaining pulpal tissue by means of a therapeutic dressing."
+  },
+    {
+    "id": 8,
+      "img":"../src/images/service/service8.png",
+    "title": "Oral and maxillofacial surgery",
+    "body": "Oral and maxillofacial surgery specializes in surgery of the face, mouth, and jaws. It is an internationally recognized surgical specialty."
+  },
+    {
+    "id": 9,
+       "img":"../src/images/service/service9.png",
+    "title": "Implant treatment",
+    "body": "A dental implant is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture"
+  }
+
+]
