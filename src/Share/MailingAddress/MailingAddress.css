@@ -13,3 +13,8 @@
  .mailing-address h5{
      color: rgb(49, 124, 99);
  }
+ .email a{
+     list-style: none;
+     text-decoration: none;
+   color: rgb(49, 124, 99);
+ }

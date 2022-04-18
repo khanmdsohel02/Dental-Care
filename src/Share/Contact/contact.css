@@ -1,0 +1,32 @@
+.contact{
+    width: 70%;
+    margin: 25px auto;
+}
+.contact h5, h4, h2{
+    text-align: center;
+    padding: 7px 0px;
+}
+.contact h5{
+    color:blueviolet;
+    padding-top:40px ;
+}
+.contact h2{
+    color: rgb(49, 124, 99);
+}
+.contact h4{
+    color: rgb(67, 101, 130);
+    padding-bottom: 45px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input, textarea{
+width: 100%;
+padding: 1.5rem;
+border-radius: 0.5rem;
+background: transparent;
+border:  2px solid rgb(49, 124, 99);
+resize: none;
+}

@@ -1,0 +1,42 @@
+.footer-1{
+    background-color:darkslategrey ;
+display: grid;
+grid-template-columns:repeat(2, 1fr);
+grid-gap: 15px;
+align-items: center;
+justify-content: space-around;
+padding:20px 35px 80px 35px ;
+
+}
+.map{
+    background-color: bisque;
+    width: 100%;
+    margin: 25px;
+       padding-left: 50px;
+}
+.detail-hours{
+     width: 100%;
+   margin: 25px;
+   padding-left: 250px;
+  
+}
+.detail-hours h3{
+color: white;
+padding-bottom: 25px;
+}
+.detail-hours  p span{
+ padding-left: 35px;
+ color: white;
+}
+.detail-hours  p{
+    color: white;
+}
+ .footer-2{
+ background-color:rgb(55, 98, 98) ;
+height: 70px;
+}
+ .footer-2 p{
+     color: white;
+     text-align:center;
+     padding-top: 5px;
+ }
