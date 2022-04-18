@@ -1,0 +1,9 @@
+.services{
+ display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 25px;
+    margin-bottom: 50px;
+}
+.title-bg{
+    background-image: url(../../images/testimonial/bg.png);
+}

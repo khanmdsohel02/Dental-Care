@@ -1,4 +1,3 @@
-import Navbar from "./component/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./component/Home/Home";
 import AboutMe from "./component/AboutMe/AboutMe";
@@ -9,16 +8,17 @@ import Blogs from "./component/Blogs/Blogs";
 import LogIn from "./component/User/LogIn";
 import SignUp from "./component/User/SignUp";
 import NotFound from "./component/Notfound/NotFound";
+import Navigation from "./component/Navbar/Navbar";
 
 
 function App() {
   return (
     <>
-       <Navbar/> 
+       < Navigation/>
        <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/home" element={<Home/>} />
-        <Route path="/aboutme" element={<AboutMe/>} />
+        <Route path="/about" element={<AboutMe/>} />
         <Route path="/service" element={<Services/>} />
         <Route path="/fees" element={<Fees/>} />
         <Route path="/appointment" element={<Appointment/>} />

@@ -1,33 +1,22 @@
-.logo{
-    margin: 0px 60px 0px 15px ;
+.navi{
+  position: sticky;
+  top: 0%;
+  background-color: rgb(246, 242, 237);
 }
-.logo a{
-    padding: 10px 15px;
+.logo{
     font-size: 30px;
     font-weight: 600;
     font-style: italic;
-    text-decoration: none;
-    color:blueviolet ;
 }
-.menu-item{
-    color: rgb(49, 124, 99);;
+.menu-items{
+    margin-left: 200px;
+}
+.menu-items .item{
+    margin-left: 25px;
+    padding: 5px 0px;
     font-weight: 700;
-    text-decoration: none;
 }
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
+.menu-items .item:hover{
+    border-bottom: 1px solid rgb(49, 124, 99);;
 }
-ul li{
-    list-style: none;
-margin-left: 20px;
 
-}
-ul li a{
-    padding: 2px  5px;
-}
-ul li a:hover{
-    border-bottom: 2px solid blueviolet;
-}

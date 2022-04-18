@@ -2,10 +2,12 @@ import React from 'react';
 import "./AboutMe.css"
 import me from "../../images/me/me.png"
 import me1 from "../../images/me/me1.png"
+import Footer from "../../Share/Footer/Footer"
 
 const AboutMe = () => {
     return (
-        <div className='container'>
+        <>
+            <div className='container'>
             <div className="me-info">
                 <div className="degrees">
                 <h5>Dr. Abdullah</h5>
@@ -30,12 +32,14 @@ Email Address: abdullah.dr@gmail.com</p>
                 </div>
                 <div className="mission-info">
                     <h3>MY MISSION</h3>
-                    <p>My mission is to put smile on every face in my country and having a nice and healthy teeth.</p> <br /><br /><br />
+                    <p>My mission is to put smile on every face in my country and having a nice and healthy teeth.</p> <br /><br />
                     < h3 > My APPROACH </h3>
                     <p>The five key principles of dental ethics are patient autonomy, nonmaleficence, beneficence, justice, and veracity. Understanding each of these principles will provide the guidance needed to ensure that patient needs are met within the ethical guidelines of the dental license.</p>
                 </div>
             </div>
-        </div>
+            </div>
+             < Footer/>
+        </>
     );
 };
 

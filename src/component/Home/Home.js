@@ -23,7 +23,7 @@ const Home = () => {
     const [testimonials, setTestimonials] = useTestimonial();
 
     return (
-        <div className='home' >
+        <div id='home' >
             <MailingAddress />
             <HBanner />
             <div className='color-bg'>

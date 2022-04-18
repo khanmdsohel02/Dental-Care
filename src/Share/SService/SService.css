@@ -4,6 +4,8 @@
     align-items: center;
     padding: 30px 80px;
     margin: 20px;
+   background-color: #f8f8f8;
+   border-radius: 10px;
 }
 .s-service h4{
   color: rgb(49, 124, 99);

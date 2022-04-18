@@ -7,6 +7,7 @@
     grid-template-columns:  60% 40%;
     align-items: center;
     justify-content: space-between;
+   
 }
 .degrees h5, h2, p{
     text-align: start;
@@ -14,12 +15,15 @@
 .degrees h5{
     color: blueviolet;
 }
-.degrees h2{
+.degrees h2 , .mission h3{
       color: rgb(49, 124, 99);
 }
-.degrees p{
+.degrees p, .mission p{
       color:rgb(67, 101, 130);
 }
-.me img{
+.me img, .img-me img{
     border-radius: 50%;  
+}
+.mission{
+     margin-top: 150px;
 }
