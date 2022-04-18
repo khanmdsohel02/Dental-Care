@@ -1,0 +1,25 @@
+.container{
+    width: 90%;
+    margin: 30px auto;
+}
+.me-info, .mission{
+    display: grid;
+    grid-template-columns:  60% 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+.degrees h5, h2, p{
+    text-align: start;
+}
+.degrees h5{
+    color: blueviolet;
+}
+.degrees h2{
+      color: rgb(49, 124, 99);
+}
+.degrees p{
+      color:rgb(67, 101, 130);
+}
+.me img{
+    border-radius: 50%;  
+}
