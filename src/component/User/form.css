@@ -1,0 +1,22 @@
+.login-form, .Signup-form{
+    width: 40%;
+    margin: 0px auto;
+       background-color: aliceblue;
+        border-radius: 15px;
+}
+.login-form, .Signup-form h1{
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 20px;
+}
+form{
+    padding: 30px;
+    margin-top:20px ;
+}
+.login-form, .Signup-form h5{
+     text-align: center;
+     padding-bottom: 20px;
+}
+.login-form h5 a, .Signup-form h5 a{
+    text-decoration: none;
+}
