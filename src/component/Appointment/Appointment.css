@@ -1,0 +1,9 @@
+.book{
+    height: 100px;
+    background-color: aqua;
+}
+.book h1{
+    text-align: center;
+    padding-top:20px ;
+    color:white;
+}
