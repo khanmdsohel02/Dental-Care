@@ -10,7 +10,7 @@
 /*************** Service*********** */
 
 .service {
-    display: flex;
+     display: flex; 
 }
  .title{
     color: rgb(49, 124, 99);
@@ -44,19 +44,18 @@
 text-align: center;
 padding: 2rem;
 }
-.client-img{
-    border:  5px solid black;
-    width: 7rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0px auto 1rem;
+.client-img img{
+    margin-bottom: 25px;
+   border-radius: 50%;
+}
+.testimonial h1{
+      color: rgb(7, 99, 68);
 }
 .testimonial p {
-    color: black;
     font-size: 25px;
     margin: 25px 0px;
     text-align: center;
+    color: rgb(4, 111, 75);
 }
 .swiper-pagination-clickable .swiper-pagination-bullet{
     background-color:rgb(68, 16, 116) ;

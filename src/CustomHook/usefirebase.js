@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react"
-import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
-import app from "../firebasecConfig"
+import {  GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
+import auth from "../firebasecConfig";
 
 
-const auth = getAuth(app)
+
+
 const googleProvider = new GoogleAuthProvider();
 
 const useFirebase = () => {

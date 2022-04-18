@@ -43,7 +43,7 @@ const Home = () => {
                <p className='title'>Recent Posts</p>
                 <div className="R-post">
                        {
-                        blogs.slice(0, 6).map(blog => <Blog
+                        blogs.slice(0, 3).map(blog => <Blog
                             key={blog.id}
                             blog={blog}
                         />

@@ -1,13 +1,11 @@
 .navi{
   position: sticky;
   top: 0%;
-  background-color: rgb(246, 242, 237);
+  background-color: #f8f8f8;
+  border-bottom: 1px solid rgb(49, 124, 99);
+  padding: 0px 0px;
 }
-.logo{
-    font-size: 30px;
-    font-weight: 600;
-    font-style: italic;
-}
+
 .menu-items{
     margin-left: 200px;
 }

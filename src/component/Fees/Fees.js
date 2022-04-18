@@ -3,6 +3,7 @@ import "./Fees.css"
 import MailingAddress from "../../Share/MailingAddress/MailingAddress"
 import Footer from "../../Share/Footer/Footer"
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Fees = () => {
     return (
@@ -17,7 +18,7 @@ const Fees = () => {
           
          <div className="d-grid gap-2 mb-3">
   <Button className='btn' variant="primary" size="lg">
-  <a href="/APPOINTMENT">BOOKING NOW</a>
+  < Link to = "/appointment" title='APPOINTMENT'> BOOKIG NOW </Link>
   </Button>
 </div>
 

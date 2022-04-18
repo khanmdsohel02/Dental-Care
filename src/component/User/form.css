@@ -1,6 +1,6 @@
 .login-form, .Signup-form{
     width: 40%;
-    margin: 0px auto;
+    margin: 20px auto;
        background-color: aliceblue;
         border-radius: 15px;
 }
@@ -29,4 +29,10 @@ background-color: whitesmoke;
 padding-left: 60px;
 padding-right: 60px;
 border: 1px solid blueviolet;
+}
+small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:  20px;
 }

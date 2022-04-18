@@ -1,11 +1,14 @@
 import React from 'react';
 import "./form.css"
 import useFirebase from "../../CustomHook/usefirebase"
+import { Link } from 'react-router-dom';
+import Footer from '../../Share/Footer/Footer';
 
 const LogIn = () => {
 
   const { signInWithGoogle } = useFirebase();
     return (
+      <div className="main-width">
         <div className="login-form">
             <h1>Please LogIn</h1>
             <form>
@@ -15,16 +18,17 @@ const LogIn = () => {
   <div className="mb-2">
     <input type="password" placeholder="Password" required/>
   </div>
-  <div className="">
-  </div>
   <button type="submit" className="btn btn-primary">Login</button>
             </form>
-            <h5>New? <a href="/signup"> SignUp</a>
-        </h5>
+            <h5>New? <Link to="/signup"> SignUp</Link>
+          </h5>
+          <small>OR</small>
       <div className = 'google-btn' >
-            <button onClick={signInWithGoogle}>SignUp With Google</button>
+            <button onClick={signInWithGoogle}>Continue With Google</button>
       </div>
-      </div>
+        </div>
+        <Footer/>
+        </div>
     );
 };
 
