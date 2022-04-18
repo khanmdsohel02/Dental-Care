@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 
 const Fees = () => {
     return (
-        <>
+        < div className = 'main-width' >
         < MailingAddress/>
           <div className="book text">
                 <h2>Plane & Fees</h2>
@@ -22,7 +22,7 @@ const Fees = () => {
 </div>
 
             <Footer/>
-        </>
+        </div>
     );
 };
 

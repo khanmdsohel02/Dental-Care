@@ -7,7 +7,7 @@ import Footer from "../../Share/Footer/Footer"
 const Blogs = () => {
     const [blogs, setBlogs] = useBlog();
     return (
-        <>
+        <div  className = 'main-width' >
             < MailingAddress />
             <div className='recent-post'>
                <p className='title title-bg'>Blogs</p>
@@ -22,7 +22,7 @@ const Blogs = () => {
                 </div>
             </div>
             < Footer/>
-        </>
+        </div>
     );
 };
 

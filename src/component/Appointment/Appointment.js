@@ -5,7 +5,7 @@ import Footer from "../../Share/Footer/Footer"
 
 const Appointment = () => {
     return (
-        <>
+        <div  className = "main-width" >
             < MailingAddress />
             <div className="book">
                 <h1>BOOKING NOW</h1>
@@ -25,7 +25,7 @@ const Appointment = () => {
             </div>
             </section>
             < Footer/>
-        </>
+        </div>
     );
 };
 

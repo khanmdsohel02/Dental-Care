@@ -4,7 +4,7 @@
        background-color: aliceblue;
         border-radius: 15px;
 }
-.login-form, .Signup-form h1{
+.login-form h1, .Signup-form h1{
     text-align: center;
     margin-top: 70px;
     padding-top: 20px;
@@ -13,10 +13,20 @@ form{
     padding: 30px;
     margin-top:20px ;
 }
-.login-form, .Signup-form h5{
+.login-form  h5, .Signup-form h5{
      text-align: center;
      padding-bottom: 20px;
 }
 .login-form h5 a, .Signup-form h5 a{
     text-decoration: none;
+}
+.google-btn {
+   text-align: center;
+}
+.google-btn button{
+margin-bottom: 30px;
+background-color: whitesmoke;
+padding-left: 60px;
+padding-right: 60px;
+border: 1px solid blueviolet;
 }

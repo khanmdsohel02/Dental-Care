@@ -10,7 +10,7 @@ const Services = () => {
 
       const [services, setServices] = useService();
     return (
-        <>
+        <div className = 'main-width' >
             < MailingAddress/>
               <div>
                <p className='title title-bg'>Dental Service</p>
@@ -25,7 +25,7 @@ const Services = () => {
             </div>
             <Contact />
             <Footer/>
-        </>
+        </div>
           );
 };
 

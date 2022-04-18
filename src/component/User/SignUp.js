@@ -1,6 +1,8 @@
 import React from 'react';
 
 const SignUp = () => {
+
+
     return (
        <div className="Signup-form">
             < h1> Please SignUp</h1>
@@ -21,7 +23,10 @@ const SignUp = () => {
   <button type="submit" className="btn btn-primary">SignUp</button>
             </form>
             <h5>Already have an Account? <a href="/login"> LogIn</a>
-            </h5>
+        </h5>
+        <div div className = 'google-btn' >
+            <button>SignUp With Google</button>
+      </div>
       </div>
     );
 };

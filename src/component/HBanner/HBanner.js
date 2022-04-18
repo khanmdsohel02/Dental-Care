@@ -27,9 +27,9 @@ const HBanner = () => {
       src={banner2}
       alt="Second slide"
     />
-    <Carousel.Caption>
-      <h2>Brighten your smiles</h2>
-      <p>High-Quality Cosmetic Service  to restore your confidence with a healthy and beautiful smile.</p>
+    <Carousel.Caption >
+      <h2 className='text-center'>Brighten your smiles</h2>
+      <p  className='text-center'>High-Quality Cosmetic Service  to restore your confidence with a healthy and beautiful smile.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>

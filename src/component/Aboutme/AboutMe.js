@@ -6,7 +6,7 @@ import Footer from "../../Share/Footer/Footer"
 
 const AboutMe = () => {
     return (
-        <>
+        <div className='main-width'>
             <div className='container'>
             <div className="me-info">
                 <div className="degrees">
@@ -39,7 +39,7 @@ Email Address: abdullah.dr@gmail.com</p>
             </div>
             </div>
              < Footer/>
-        </>
+        </div>
     );
 };
 
