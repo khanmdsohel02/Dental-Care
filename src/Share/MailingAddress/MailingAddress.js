@@ -17,7 +17,7 @@ const MailingAddress = () => {
             </div>
             
             <div className='email'>
-                <h5><a href="mailto:abdulla.dr@gmail.com" target="_blank">abdulla.dr@gmail.com</a></h5>
+                <h5><a href="mailto:abdulla.dr@gmail.com" target="_blank">abdullah.dr@gmail.com</a></h5>
                 <p>Email me now!</p>
             </div>
             
