@@ -10,7 +10,9 @@
 /*************** Service*********** */
 
 .service {
-     display: flex; 
+      display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
  .title{
     color: rgb(49, 124, 99);
@@ -60,5 +62,20 @@ padding: 2rem;
 .swiper-pagination-clickable .swiper-pagination-bullet{
     background-color:rgb(68, 16, 116) ;
    padding: 5px;
+}
+
+
+/* responsive */
+
+
+ @media  ( max-width: 1200px){
+ .service, .R-post{
+   grid-template-columns: repeat(2, 1fr)
+    }
+}
+@media  ( max-width: 650px){
+ .service, .R-post{
+          grid-template-columns: 1fr
+    }
 }
 

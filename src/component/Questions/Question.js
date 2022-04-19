@@ -62,11 +62,19 @@ Heroku – Platform as a service backed by Salesforce,
   </Accordion.Item>
         </Accordion>
         
-        <div className='my-5 mt-5'>
-
-          <img src="" alt="" />
-          
-            </div>
+        <div className = 'd-flex justify-content-between align-items-center' >
+<div className='my-5 mt-5'>
+  <img className='rounded-circle' src={"https://i.ibb.co/sbfPjpV/sohel.png"} alt="sohel" />
+ </div>
+          <div className='mx-5 my-5'>
+               <h1>MD. SoHeL</h1>
+            <p  className = 'text-black' >
+          My main goal is to be a web developer since I have been following this and hopefully one day I will be a web developer inshaAllah.    I am currently studying and I am working
+               digital marketing(SEO)
+            </p>
+            
+          </div>
+      </div>
 
         </div>
     );

@@ -1,9 +1,10 @@
 .short-boi{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 70px 80px;
-    margin: 70px 70px 0px 70px;
+    justify-content:center;
+    margin: 70px 70px;
 }
 .about-me p{
     color:rgb(67, 101, 130);
@@ -16,6 +17,28 @@
 .me-img img{
 border-radius: 50%;
 }
+
+
+/* responsive */
+
+
+@media  ( max-width: 1300px){
+.short-boi{
+margin: 20px 0px;
+}
 .about-me{
-    width: 60%;
+    padding-right: 50px ;
+}
+}
+@media  ( max-width: 1050px){
+ .short-boi{
+    grid-template-columns: 1fr;
+ }
+ .about-me{
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ .me-img img{
+   width: 70%;
+}
 }

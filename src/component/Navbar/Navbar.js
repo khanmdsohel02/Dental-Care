@@ -18,7 +18,7 @@ const Navigation = () => {
           < Navbar.Brand className = 'logo'
             as={Link} to="/" >
         < img src ={"https://i.ibb.co/QnPjKG9/logo.png"}
-        alt = "log" />
+        alt = "logo" />
           </ Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

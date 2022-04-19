@@ -7,7 +7,7 @@ const MailingAddress = () => {
         <div className='mailing-address'>
             <div className='location'>
                 
-                <h5>Dr. Abdulla Dental Care</h5>
+                <h5>Dr. Abdullah Dental Care</h5>
                 <p > Baitul Aman Housing, House #616</p>
             </div>
             

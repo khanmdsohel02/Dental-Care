@@ -1,10 +1,10 @@
 .mailing-address{
   background-color: #f8f8f8;
- display:flex;
+ display:grid;
+ grid-template-columns: repeat(4, 1fr);
  align-items: center;
- justify-content: space-around;
- padding-top: 25px;
- padding-bottom: 20px;   
+justify-content: space-between;
+padding: 20px 0px 20px 60px;
 }
  .mailing-address p{
      color:rgb(67, 101, 130);
@@ -18,3 +18,43 @@
      text-decoration: none;
    color: rgb(49, 124, 99);
  }
+  .email a:hover{
+    color: blueviolet;
+  }
+  
+/************ Media query********* */
+
+@media  ( max-width:1100px) {
+.mailing-address{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.ph-number{
+  padding-left: 35px;
+}
+}
+@media  ( max-width: 1030px){
+  .email{
+ padding-right:20px ;
+  }
+  .ph-number{
+  padding-left: 20px;
+}
+.hours{
+  margin-left: 15px;
+}
+}
+
+@media  ( max-width: 890px){
+.mailing-address{
+grid-template-columns: repeat(2,1fr);
+}
+.location,  .ph-number{
+ padding-bottom: 20px;
+}
+}
+@media  ( max-width: 500px){
+  .mailing-address{
+grid-template-columns: repeat(1fr);
+}
+}

@@ -9,9 +9,11 @@ const Footer = () => {
 
             <footer className='footer-1'>
                 <div className="map">
-                   <p> Every little thing that passes your lips has an impact on your teeth, including what you drink ? Not only can certain beverages discolor your teeth, but their overall level of acidity can also soften tooth enamel, which can make your teeth more sensitive and vulnerable to dental caries.If you attempting to live a healthier life, uncover how what you consume alcohol might be injuring your teeth and also what could be much better instead. </p>
+                 < iframe src = {"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.342055260347!2d90.35430171498174!3d23.77083088457935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c09877020211%3A0x659eedef50a532ae!2sBaitul%20Aman%20Housing%20Society!5e0!3m2!1sen!2sbd!4v1650382291107!5m2!1sen!2sbd"}
+                 > </iframe>
+                    
+
                 </div>
-                 
                 <div className="detail-hours">
                     <h3> Opening Hours </h3>
                     < p > Sunday < span > 6: 00 PM - 9: 00 PM </span></p >

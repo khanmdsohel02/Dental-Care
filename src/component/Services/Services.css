@@ -10,3 +10,18 @@
 .title-bg{
     padding-bottom: 30px;
 }
+
+
+
+/* responsive */
+
+@media  ( max-width: 1000px){
+ .services{
+          grid-template-columns: repeat(2 , 1fr);
+    }
+}
+@media  ( max-width: 650px){
+ .services{
+          grid-template-columns: 1fr
+    }
+}
