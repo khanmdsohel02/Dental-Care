@@ -29,13 +29,13 @@ const Navigation = () => {
         <Nav.Link as={Link} to="/appointment"className='item' >APPOINTMENT</Nav.Link>
         <Nav.Link as={Link} to="/fees"className='item' >FEES</Nav.Link>
               <Nav.Link as={Link} to="/blog" className='item' >BLOGS</Nav.Link>
-              <span className='color-info'>{ user?.displayName && user.displayName} </span>
           {
                 user?.uid?
                 <b className='sign-out' onClick={handleSignOut}>Sign Out</b>:
                 < Nav.Link as={Link} to="/login"
-                className = 'item' > LOGIN </Nav.Link>
-        }
+                    className='item' > LOGIN </Nav.Link>
+              }
+                <span className='user-name'>{ user?.displayName && user.displayName} </span>
     </Nav>
   </Navbar.Collapse>
   </Container>

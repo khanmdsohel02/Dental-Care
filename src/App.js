@@ -10,6 +10,8 @@ import SignUp from "./component/User/SignUp";
 import NotFound from "./component/Notfound/NotFound";
 import Navigation from "./component/Navbar/Navbar";
 import { Toaster } from 'react-hot-toast';
+import RequireAuth from "./component/RequireAuth/RequireAuth";
+import Question from "./component/Questions/Question";
 
 
 
@@ -24,10 +26,20 @@ function App() {
         <Route path="/about" element={<AboutMe/>} />
         <Route path="/service" element={<Services/>} />
         <Route path="/fees" element={<Fees/>} />
-        <Route path="/appointment" element={<Appointment/>} />
+        <Route path="/appointment" element={
+          <RequireAuth>
+            <Appointment/>
+          </RequireAuth>
+        } />
         <Route path="/blog" element={<Blogs/>} />
         <Route path="/login" element={<LogIn/>} />
-        <Route path="/signup" element={<SignUp/>} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/question" element={
+          <RequireAuth>
+            <Question/>
+          </RequireAuth>
+        } />
+        
         <Route path="*" element={<NotFound/>} />
       
         

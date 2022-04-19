@@ -1,20 +1,22 @@
 import { useEffect, useState } from "react"
 import {  createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
 import auth from "../firebasecConfig";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 
 const googleProvider = new GoogleAuthProvider();
 
 const useFirebase = () => {
+
+      const location = useLocation();
   const navigate = useNavigate();
   const [user, setUser] = useState({});
   const [email, setEmail] = useState({value: "", error: ""})
   const [password, setPassword] = useState({value: "", error: ""})
   const [confirmPassword, setConfirmPassword] = useState({ value: "", error: "" });
+
   
-console.log(password);
-  console.log(confirmPassword);
 
   const handleEmail = (emailInput) => {
     if (/^\S+@\S+\.\S+$/.test(emailInput)) {
@@ -44,12 +46,14 @@ console.log(password);
     console.log(confirmPassword);
 }
 
+  const from = location?.state?.from?.pathname || "/"
+
     const signInWithGoogle = () => {
         signInWithPopup(auth, googleProvider)
             .then(result => {
                 const user = result.user
                 setUser(user)
-              navigate("/")
+              navigate(from ,{replace: true})
             })
     }
     const handleLogIn = (event) => {
@@ -61,7 +65,7 @@ console.log(password);
 signInWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
       const user = userCredential.user;
-       navigate("/")
+      navigate(from ,{replace: true})
     // console.log(user);
   })
   .catch((error) => {
@@ -90,22 +94,31 @@ signInWithEmailAndPassword(auth, email, password)
       if (password.value == "") {
         setPassword({value: "", error: "Password is required"})
       }
-      
+
 
       if (email.value && password.value && confirmPassword.value == password.value) {
          createUserWithEmailAndPassword(auth, email.value, password.value)
   .then((userCredential) => {
       const user = userCredential.user;
-       navigate("/")
-    //   console.log(user);
+    navigate("/")
+    toast.success("Successfull", { id: "success" });
+      console.log(user);
   })
   .catch((error) => {
     const errorCode = error.code;
-      const errorMessage = error.message;
+    const errorMessage = error.message;
 
-    //   console.log(errorMessage);
+    if (errorMessage.includes("already-exists")) {
+     toast.error("User Already Exists" , {id: "error"})
+    } else {
+       toast.error(errorMessage , {id: "error"})
+    }
+    
   });
-     }
+      }
+      else {
+          toast.error("Fillup Form", { id: "error" });
+      }
     };
 
 return {

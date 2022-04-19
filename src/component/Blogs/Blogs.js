@@ -3,6 +3,8 @@ import MailingAddress from "../../Share/MailingAddress/MailingAddress"
 import Blog from '../../Share/Blog/Blog';
 import useBlog from '../../CustomHook/useBlog';
 import Footer from "../../Share/Footer/Footer"
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
 const Blogs = () => {
     const [blogs, setBlogs] = useBlog();
@@ -21,6 +23,15 @@ const Blogs = () => {
             }
                 </div>
             </div>
+         
+            
+                  <div className="d-grid gap-2 mb-3">
+  <Button className='btn' variant="primary" size="lg">
+  < Link to = "/question" title='QUESTIONS'>QUESTIONS  AND ABOUT ME</Link>
+  </Button>
+</div>
+
+
             < Footer/>
         </div>
     );
