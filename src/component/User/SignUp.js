@@ -4,26 +4,26 @@ import useFirebase from '../../CustomHook/usefirebase';
 import Footer from "../../Share/Footer/Footer"
 
 const SignUp = () => {
- const { signInWithGoogle } = useFirebase();
+ const { signInWithGoogle, handleSignUp } = useFirebase();
 
     return (
       <div className="main-width">
         <div className="Signup-form">
             < h1> Please SignUp</h1>
-            <form>
+            <form onSubmit={handleSignUp}>
   <div className="mb-2">
-    <input type="text" placeholder='Full Name' required/>
+    <input type="text"name='name' placeholder='Full Name'/>
     <div id="emailHelp" className="form-text"></div>
   </div>
   <div className="mb-2">
-    <input type="email"  placeholder='Your Email' required/>
+    <input type="email" name='email' placeholder='Your Email' required/>
     <div id="emailHelp" className="form-text"></div>
   </div>
   <div className="mb-2">
-    <input type="password" placeholder="Password" required/>
+    <input type="password" name='password' placeholder="Password" required/>
   </div>
   <div className="mb-2">
-    <input type="password" placeholder=" Confirm Password" required/>
+    <input type="password"name='ConfirmPassword' placeholder=" Confirm Password" required/>
   </div>
   <button type="submit" className="btn btn-primary">SignUp</button>
             </form>
@@ -31,7 +31,7 @@ const SignUp = () => {
           </h5>
             <small>OR</small>
         <div div className = 'google-btn' >
-            <button  onClick={signInWithGoogle}>Continue With Google</button>
+  <button  onClick={signInWithGoogle}>Continue With Google</button>
       </div>
         </div> 
         <Footer/>

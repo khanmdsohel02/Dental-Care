@@ -8,6 +8,8 @@ import "./Navbar.css"
 const Navigation = () => {
 
   const { user, handleSignOut } = useFirebase();
+  console.log(user);
+
     return (
    
         <Navbar
@@ -27,7 +29,7 @@ const Navigation = () => {
         <Nav.Link as={Link} to="/appointment"className='item' >APPOINTMENT</Nav.Link>
         <Nav.Link as={Link} to="/fees"className='item' >FEES</Nav.Link>
               <Nav.Link as={Link} to="/blog" className='item' >BLOGS</Nav.Link>
-              <span className='color-info'>{ user?.displayName && user.DisplayName} </span>
+              <span className='color-info'>{ user?.displayName && user.displayName} </span>
           {
                 user?.uid?
                 <b className='sign-out' onClick={handleSignOut}>Sign Out</b>:
