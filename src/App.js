@@ -9,12 +9,15 @@ import LogIn from "./component/User/LogIn";
 import SignUp from "./component/User/SignUp";
 import NotFound from "./component/Notfound/NotFound";
 import Navigation from "./component/Navbar/Navbar";
+import { Toaster } from 'react-hot-toast';
+
 
 
 function App() {
   return (
     <>
-       < Navigation/>
+      < Navigation />
+      < Toaster/>
        <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/home" element={<Home/>} />
